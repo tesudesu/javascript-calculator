@@ -1,13 +1,101 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #ffeb99;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#calculator-container {
+    border: 4px solid #FAC636;
+    background-color: #FFDD6B;
+    margin: auto;
+    margin-top: 10%;
+    display: table;
+    padding: 10px;
+}
+
+#sub-display {
+    box-sizing: border-box;
+    width: 338px;
+    min-height: 30px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 40px;
+    overflow-wrap: break-word;
+    background-color: #ffeb99;
+    margin: 3px 3px 0 3px;
+    padding: 5px;
+    font: 15px monospace;
+}
+
+#main-display {
+    box-sizing: border-box;
+    width: 338px;
+    height: 35px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 60px;
+    overflow: hidden;
+    background-color: #ffeb99;
+    margin: 0 3px 3px 3px;
+    padding: 5px;
+    font: 18px monospace;
+}
+
+#clear {
+    box-sizing: border-box;
+    float: left;
+    width: 252px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #FAC636;
+    margin: 3px;
+    font-family: Verdana, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+#divide, #eight, #nine, #multiply, #five, #six, #subtract, #two, #three, #add, #decimal {
+    box-sizing: border-box;
+    float: left;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #FAC636;
+    margin: 3px;
+    font-family: Verdana, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+#seven, #four, #one, #zero {
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #FAC636;
+    margin: 3px;
+    font-family: Verdana, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+#equals {
+    box-sizing: border-box;
+    float: left;
+    width: 166px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #FAC636;
+    margin: 3px;
+    font-family: Verdana, sans-serif;
+    font-size: large;
+    cursor: pointer;
 }
